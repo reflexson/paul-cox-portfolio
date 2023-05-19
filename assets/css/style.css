@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: rgb(251, 248, 248);
+}
+
+.header {
+  
+    background-color: #519bc0;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    float:left
+}
+
+a{
+    color: #ffffff;
+}
+
+.header nav {
+    color: #ffffff;
+    padding-top: 30px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header nav ul li {
+    display:inline-flex;
+    margin-left: 25px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.hero{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/TopBG.jpg");
+    background-size: cover;
+}
+
+h3{
+    padding-top: 10px;
+    float: right;
+    padding-right: 30px;
+    color: #ffffff;
+}
+
+p{
+    margin: 0%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+main{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:left;
+
+}
+
+
+.container{
+    width: 100%;
+    padding-top: 10%;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2%;
+    text-align: left;
+    color: black;
+    width: 23%;
+    float: left;
+}
+
+
+.sub-container{
+    margin: 0%;
+    width:71%;
+    float:right;
+    padding-left: 2%;
+    border-left: 2px;
+    border-left-style: solid;
+    border-left-color:black ;
+}
+
+
+.flex{
+
+    width:100%;
+    margin: 0%;
+    border-left: 1px;
+    border-left: solid;
+    border-left:rgb(57, 56, 58);
+    
+}
+
+.largeimg{
+    width: 100%;
+
+}
+
+@media (min-width:769px) and (max-width:1150px){
+    .flex{
+    flex-direction:column;
+    width:46%;
+    }
+}
+
+@media (max-width:768px){
+    .flex{
+    flex-direction:column;
+    width:100%;
+    }
+}
+
+     
+
+   
