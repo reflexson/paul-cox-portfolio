@@ -53,7 +53,7 @@ p{
 
 .header h1 {
     display: inline-block;
-    font-size: 55px;
+    font-size: 70px;
     margin-block-end: 0;
     margin-block-start: 0;
     text-shadow: 2px 2px 5px #828282;
@@ -72,6 +72,14 @@ p{
     margin-right: 20px;
     float: right; 
     font-size: 20px;
+}
+
+h2{
+    font-size: 20px;
+    float: left;
+    text-shadow: 2px 2px #000000;
+    margin-block-end: 0;
+    
 }
 
 nav ul li a:hover{
@@ -124,22 +132,14 @@ main{
     font-weight: bolder;
     margin-left: 2%;
     text-align:center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: 23%;
     float: left;
     background-image: url("../images/TopBG.jpg");
     background-size: cover;
     border-radius: 25px;
     box-shadow: 2px 2px 5px #7d7d7d;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-h2{
-    font-size: 15px;
-    float: left;
-    text-shadow: 2px 2px #000000;
-    margin-block-end: 0;
-    
+    text-shadow: 2px 2px 2px #363535;
 }
 
 .exlinks{
@@ -179,6 +179,12 @@ img:hover{
     opacity: .5;
     }
 
+.HS{
+    width:50%;
+    border-radius: 25px;
+
+}
+
 /* Footer */
 
 footer{
@@ -190,7 +196,7 @@ footer{
 
 /* Responsive */
 
-@media (max-width:567px){
+@media (max-width:644px){
     ul{
         margin-block-start:5%;
     }
