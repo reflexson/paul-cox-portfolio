@@ -182,7 +182,10 @@ img:hover{
 .HS{
     width:50%;
     border-radius: 25px;
+}
 
+.HS:hover{
+    opacity: 100%;
 }
 
 /* Footer */
