@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a website to display my portfolio. It contains a header, about me section, projects section, contact section and a footer. There are links in the header to navigate the page, and external links to projects, my email, my instagram, and a future linkedin profile. The site is responsive to resizing and is easy to navigate.  It is a great template that I can fill in with more items and I go on through this course. 
+This project is a website to display my portfolio. It contains a header, about me section, projects section, contact section and a footer. There are links in the header to navigate the page, and external links to projects, my email, my instagram, and a future linkedin profile. The site is responsive to resizing and is easy to navigate.  It is a great template that I can fill in with more items as I go on through this course. 
 
 
 
